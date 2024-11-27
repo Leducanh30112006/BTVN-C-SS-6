@@ -7,7 +7,7 @@ int main() {
     printf("Cac so nguyen to dau tien la: ");
     while (soluong < n) {
         int i;
-        for (i = 2;; ++i) {
+        for (i = 2;i <= num; ++i) {
             if (num % i == 0) {
                 break;
             }
